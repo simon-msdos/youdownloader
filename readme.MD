@@ -4,7 +4,7 @@ This script downloads audio from a YouTube playlist and saves it as MP3 files in
 
 ## Requirements
 
-- `yt-dlp` (make sure it's installed and available in your PATH).
+- `yt-dlp` (autoinstall).
 
 ## Usage
 
