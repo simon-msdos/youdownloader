@@ -13,4 +13,5 @@ This script downloads audio from a YouTube playlist and saves it as MP3 files in
 3. Run the script:
 
    ```bash
-   ./download_audio.sh
+   ./youdownloader.sh
+
