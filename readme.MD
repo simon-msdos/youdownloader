@@ -1,3 +1,5 @@
+![usage](image.png)
+
 # YouTube Playlist Audio Downloader
 
 This script downloads audio from a YouTube playlist and saves it as MP3 files in the same directory as the script.
