@@ -55,6 +55,8 @@ if ! grep -q "youdownload" ~/.bashrc ~/.zshrc 2>/dev/null; then
     fi
 fi
 
+DOWNLOAD_FOLDER="$HOME/Desktop/youdownload - simon-msdos"
+mkdir -p "$DOWNLOAD_FOLDER"
 
 read -p "Enter the YouTube playlist URL: " URL
 if [[ -z "$URL" ]]; then
