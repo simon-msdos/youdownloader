@@ -1,4 +1,20 @@
 #!/bin/bash
+GREEN='\e[1;32m'
+
+clear
+echo -e "$GREEN"
+cat << "EOF"
+  ____ ___ __  __  ___  _   _           __  __ ____  ____   ___  ____  
+ / ___|_ _|  \/  |/ _ \| \ | |         |  \/  / ___||  _ \ / _ \/ ___| 
+ \___ \| || |\/| | | | |  \| |  _____  | |\/| \___ \| | | | | | \___ \ 
+  ___) | || |  | | |_| | |\  | |_____| | |  | |___) | |_| | |_| |___) |
+ |____/___|_|  |_|\___/|_| \_|         |_|  |_|____/|____/ \___/|____/  
+EOF
+echo -e "$RESET"
+
+SCRIPT_URL="https://raw.githubusercontent.com/simon-msdos/youdownloader/main/youdownloader.sh"
+echo -e "$GREEN Script by Simon - GitHub: $CYAN https://github.com/simon-msdos $RESET\n"
+
 if ! command -v yt-dlp &>/dev/null; then
     echo -e "$RED[Error] yt-dlp is not installed.$RESET"
     read -p "Install yt-dlp now? (y/n): " install_choice
