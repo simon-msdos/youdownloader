@@ -96,9 +96,10 @@ if ! grep -q "youdownload" ~/.bashrc ~/.zshrc 2>/dev/null; then
     if [[ "$alias_choice" =~ ^[Yy]$ ]]; then
         SHELL_CONFIG="$HOME/.bashrc"
         [[ "$SHELL" =~ zsh ]] && SHELL_CONFIG="$HOME/.zshrc"
-        echo "alias youdownload='bash <(curl -s $SCRIPT_URL)'" >> "$SHELL_CONFIG"
-        echo "alias youtubedownload='bash <(curl -s $SCRIPT_URL)'" >> "$SHELL_CONFIG"
-        echo "alias ydown='bash <(curl -s $SCRIPT_URL)'" >> "$SHELL_CONFIG"
+        echo "alias youdownload='bash <(curl -s https://raw.githubusercontent.com/simon-msdos/youdownloader/main/youdownloader.sh)'" >> "$SHELL_CONFIG"
+        echo "alias youtubedownload='bash <(curl -s https://raw.githubusercontent.com/simon-msdos/youdownloader/main/youdownloader.sh)'" >> "$SHELL_CONFIG"
+        echo "alias ydown='bash <(curl -s https://raw.githubusercontent.com/simon-msdos/youdownloader/main/youdownloader.sh)'" >> "$SHELL_CONFIG"
+
         source "$SHELL_CONFIG"
         echo -e "$GREEN[Success] Aliases {youdownload OR youtubedownload OR ydown } added! \n usage : ydown[link] \n Restart terminal to use them.$RESET\n"
     else
