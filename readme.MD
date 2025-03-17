@@ -84,7 +84,14 @@ Beautiful color-coded output for:
 - Errors (Red)
 - Info (Cyan)
 - Headers (Blue)
-[watch the video](TUTO.mp4)
+
+
+
+<video width="640" height="360" controls>
+  <source src="TUTO.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## 🤝 Contributing
 
