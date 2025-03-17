@@ -84,6 +84,7 @@ Beautiful color-coded output for:
 - Errors (Red)
 - Info (Cyan)
 - Headers (Blue)
+[watch the video](TUTO.mp4)
 
 ## 🤝 Contributing
 
